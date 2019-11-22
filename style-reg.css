@@ -8,15 +8,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .log-in{
   min-width: 60vw;
   min-height: 60vh;
   background-color: white;
-  border-radius: 5%;
-  box-shadow: 5px 10px #398f50;
+  border-radius: 10%;
+  box-shadow: 50px 100px #398f50;
   display: flex;
   justify-content: space-around;
 }
