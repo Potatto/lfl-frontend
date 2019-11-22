@@ -1,0 +1,143 @@
+body{
+  font-family: 'McLaren', cursive;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header{
+  width: 100vw;
+  height: 15vh;
+  background-image: linear-gradient(45deg,#bcc6d6 , #fff);
+  display: flex;
+  justify-content: center;
+  border-bottom: solid;
+  border-color: #ffa200;
+}
+
+.header .container{
+  width:1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header .container img{
+  width: 10%;
+  height: 70%;
+}
+
+.header .container span{
+  font-size: 30px;
+}
+
+.nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    border-color: #ffa200;
+    position: sticky;
+    top: 0;
+}
+
+.nav .tiles{
+  width: calc(100%/3);
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav .tiles a{
+  text-decoration: none;
+  color: #ffa200;
+}
+
+.nav .tiles a:hover{
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("img/back-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid;
+  border-color: #ffa200;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content .container{
+  width:1024px;
+  height: 100%;
+  display: flex;
+  background-image: linear-gradient(45deg,#bcc6d6 , #fff);
+  justify-content: center;
+  align-items: center;
+}
+
+.content .container table{
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  border-image: linear-gradient(45deg,#bcc6d6 , #fff);
+  border-collapse: collapse;
+}
+
+.content .container table, tr, th, td{
+  border: solid;
+}
+
+.content .container th{
+  background-color: #ffa200;
+}
+
+.footer{
+  width: 100vw;
+  height: 5vh;
+  background-image: linear-gradient(45deg,#bcc6d6 , #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container{
+  width:1024px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container span{
+  font-size: 15px;
+  font-family: 'Yeon Sung', cursive;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg,#ffa200 , #f5efed);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(45deg,#f5efed , #ffa200);
+}
